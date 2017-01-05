@@ -3,4 +3,4 @@
 This is the project submission for Simon X Han for Project 1 of Udacity's Full Stack Web Developer Nanodegree
 
 ## Usage
-1. Open index.html in your favourite browser
+1. Open index.html in your favourite browser.
