@@ -1,0 +1,43 @@
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+h2 {
+    color: silver;
+}
+
+.divider {
+    border: none;
+    color: #7d97ad;
+    background-color: #7d97ad;
+    height: 3px;
+}
+
+.header-title {
+    text-align: right;
+}
+
+.banner {
+    height: 100px;
+    vertical-align: middle;
+    color: #2d3c49;
+}
+
+.capitalize {
+    text-transform: uppercase;;
+}
+
+.projects{
+    text-align: center;
+}
+
+
+
+@media screen and (max-width: 767px) {
+    .logo {
+        display: none;
+    }
+    .header-title {
+        text-align: left;
+    }
+}
