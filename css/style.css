@@ -17,7 +17,7 @@ h2 {
     text-align: right;
 }
 
-.banner {
+.header {
     height: 100px;
     vertical-align: middle;
     color: #2d3c49;
@@ -27,17 +27,38 @@ h2 {
     text-transform: uppercase;;
 }
 
-.projects{
+/*.center-content {
     text-align: center;
+    margin: 0 auto;
+    width: 100%;
+}*/
+
+.container {
+    max-width: 60em;
 }
 
-
+img {
+    max-width: 100%;
+}
 
 @media screen and (max-width: 767px) {
+
+    h1, h2, h3, h4 {
+        text-align: center;
+    }
+
     .logo {
         display: none;
     }
     .header-title {
         text-align: left;
     }
+    .container {
+        margin: 0 2em 0 2em;
+    }
 }
+
+@media screen and (max-width: 576px) {
+    #banner {
+        display: none;
+    }
