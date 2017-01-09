@@ -1,5 +1,11 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+
 body {
     font-family: 'Raleway', sans-serif;
+    margin-bottom: 60px;
 }
 
 h2 {
@@ -8,6 +14,12 @@ h2 {
 
 img {
     max-width: 100%;
+}
+
+/* brandico */
+[class*="brandico-"]:before {
+  font-family: 'brandico', sans-serif;
+  margin-right: 1em;
 }
 
 .divider {
@@ -34,6 +46,14 @@ img {
 
 .container {
     max-width: 60em;
+}
+
+.footer {
+  max-width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 120px;
+  /*line-height: 120px; /* Vertically center the text there */*/
+  background-color: #f5f5f5;
 }
 
 @media screen and (max-width: 767px) {
